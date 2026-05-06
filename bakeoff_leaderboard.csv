@@ -1,0 +1,17 @@
+,Model,Type,Accuracy,AUC-ROC,F1-Score,DP Diff,EO Diff,Paper Ref
+1,Logistic Regression,ML,0.7347,0.799,0.7043,0.2663,0.2345,"[1] Hardt 2016, [10] Kasmi 2021, [11] Lessmann 2015"
+2,PyTorch Shallow NN,DL,0.732,0.799,0.6927,0.2732,0.2486,"[13] Thu 2024 MLP family, [12] Hu 2025 DNN baseline"
+3,Naive Bayes,ML,0.7333,0.799,0.6988,0.2769,0.2524,"[9] Badar & Fisichella 2024 (Fair-CMNB), [13] Thu 2024"
+4,PyTorch Deep NN,DL,0.7333,0.799,0.6983,0.2769,0.2501,"[12] Hu 2025 DNN+AE framework, [15] Barrainkua 2026 DL baseline"
+5,LDA,ML,0.7347,0.799,0.703,0.277,0.2516,[11] Lessmann 2015  ← part of 41-classifier credit benchmark
+6,MLP (sklearn),ML,0.7347,0.799,0.7008,0.2769,0.2546,[13] Thu 2024
+7,AdaBoost,ML,0.734,0.7954,0.6933,0.2731,0.2463,[11] Lessmann 2015
+8,Bagging (DT),ML,0.7327,0.7952,0.6913,0.266,0.2299,[11] Lessmann 2015  ← homogeneous ensemble baseline
+9,Gradient Boosting,ML,0.732,0.7927,0.6936,0.2698,0.2269,[11] Lessmann 2015
+10,LightGBM,ML,0.7333,0.7896,0.7028,0.2845,0.2252,[7] John 2025  ← recommended for adaptive credit scoring under drift
+11,Decision Tree,ML,0.7293,0.786,0.6877,0.266,0.2396,"[11] Lessmann 2015, [13] Thu 2024"
+12,XGBoost,ML,0.7307,0.7757,0.6953,0.2522,0.1686,"[7] John 2025, [11] Lessmann 2015"
+13,SVM,ML,0.7327,0.7641,0.6951,0.2732,0.2553,[11] Lessmann 2015
+14,KNN (k=5),ML,0.7007,0.7508,0.6753,0.2574,0.182,[13] Thu 2024  ← k=5 as used in experimental study
+15,Random Forest,ML,0.678,0.7334,0.6562,0.2566,0.1532,[11] Lessmann 2015
+16,Extra Trees,ML,0.6747,0.6952,0.6519,0.2271,0.1201,[11] Lessmann 2015
